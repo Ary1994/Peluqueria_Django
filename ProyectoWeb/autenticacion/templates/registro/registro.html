@@ -1,0 +1,10 @@
+
+{% extends 'ProyectoWebApp/base.html' %}
+{% load static %}
+{%block  content%}
+<form method="post" action""> 
+
+     {% csrf_token %}
+    {{form}}
+</form>
+{%endblock%}
